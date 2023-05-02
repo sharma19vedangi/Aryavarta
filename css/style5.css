@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color:rgb(235, 224, 224);
+    border:10px solid rgb(18, 94, 18);
+}
+#arya{
+    background-image: linear-gradient(to left,orangered,orange,rgb(29, 66, 29),orange,rgb(29, 66, 29),orange,rgb(49, 126, 49),orange,rgb(29, 66, 29));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    margin:30px 0px 0px 80px;
+}
+.header li{
+display:inline-block;
+text-indent: 50px;
+text-decoration: underline;
+
+}
+.header ul{
+    border:2px solid none;
+    padding:0px 2px 0px 660px;
+    
+}
+a{
+    color:brown;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+}
+a:hover{
+    color:rgb(163, 112, 16);
+}
+main{
+    margin:20px;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    padding:10px;
+}
+#heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(22, 95, 22);
+    border-bottom:2px solid rgb(233, 157, 15);
+    width:max-content;
+    margin-left:60px;
+}
+#para{
+    margin-left:60px;
+    margin-right: 60px;
+    font-family:cursive;
+}
+.logo {
+ border:2px solid black;
+ margin-left: 55px;
+ width: 80px;
+ height: 105px;
+}
+.align div{
+    display: inline-block;
+}
+
+.logo h1{
+    font-size:14px;
+    font-family:'Times New Roman', Times, serif;
+    color:red;
+    margin-left: 15px;
+}
+.division1{
+    border:2px solid orange;
+    border-radius: 10px;
+    padding:17px;
+    margin-left:60px;
+    margin-right: 60px;
+    font-family:cursive;
+    border-block-width: 10px;
+}
+.division1 h1{
+    text-align: center;
+    color:orangered;
+}
+.division2{
+    border:1px solid green;
+    border-radius: 10px;
+    padding:17px;
+    margin-left:60px;
+    margin-right: 60px;
+    font-family:cursive;
+    border-block-width: 5px;
+}
+.division2 h3{
+    color:orangered;
+    text-align: center;
+    text-decoration:underline ;
+}
+#national-flag{
+    margin:10px;
+}
+.imagealign{
+    margin-left:467px;
+    width:200px;
+}
+.writerpic{
+    margin-top: -298px;
+    margin-left: 786px;
+}
+#emblemalign{
+    margin-left:367px;
+}
+.back input{
+    background-color:rgb(61, 201, 61);
+    width:200px;
+    font-family: sans-serif;
+    color:white;
+    margin-left:623px;
+    padding:10px;
+    }
+footer{
+    background-image:url("../img/logo3.jpg");
+    height:50vh;
+}
+footer li{
+    display:inline-block;
+    text-indent:40px;
+}
+footer ul li{
+        margin:50px 0px 0px 5px;
+    }
+footer ul li a{
+color:red;
+}
+.icons{
+    margin:20px 0px 0px 200px;
+}
+.contacticon{
+    margin-left:200px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style6.css">
+    <script type="text/javascript">
+
+       function messageTo()
+       {
+        
+        var name=document.getElementById("username").value;
+        var email=document.getElementById("email").value;
+        var phone=document.getElementById("phone").value;
+        var message=document.getElementById("message").value;
+        var regx=/^[7-9]\d{9}$/;
+        if(regx.test(phone))
+           {
+            alert("Username: " +name+ ", Email: " +email+ ", Contact Number: " +phone+ ", Message: " +message);
+           }
+        else{
+            alert("Invalid Contact Number");
+        }
+        alert("Thanks for contacting us! We will be in touch with you shortly.");
+       }
+       
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h1 id="arya">Aryavarta</h1>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="monuments.html">Monuments</a></li>
+               <li><a href="festivals.html">Festivals</a></li>
+               <li><a href="states.html">States/UTs</a></li>
+               <li><a href="identity.html">National Identity Elements</a></li>
+           </ul>
+       </nav>
+    </header>
+    <main>
+        <section class="outline">
+            <form class="form">
+                <h1 class="heading">Contact Us</h1>
+                <p>Let us know your questions, suggestions and concerns by filling out the contact form below.</p>
+                <br><div>
+                    <label for="username">Username</label>
+                    <input type="text" name="user-name" id="username" required>
+                </div><br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="user-email" id="email" required> 
+                </div><br>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="text" name="user-phone" id="phone" required>
+                </div><br>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="user-query" id="message" rows="10"></textarea>
+                </div><br>
+                <button type="submit" class="form-btn" onclick="messageTo()">Submit</button>
+                <button type="reset" class="form-btn">Reset</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color:rgb(235, 224, 224);
+    border:10px solid rgb(18, 94, 18);
+}
+#arya{
+    background-image: linear-gradient(to left,orangered,orange,rgb(29, 66, 29),orange,rgb(29, 66, 29),orange,rgb(49, 126, 49),orange,rgb(29, 66, 29));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    margin:30px 0px 0px 70px;
+}
+.header li{
+display:inline-block;
+text-indent: 30px;
+text-decoration: underline;
+font-size: 13px;
+
+}
+.header ul{
+    border:2px solid none;
+    padding:0px 2px 0px 600px;
+    
+}
+#heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(22, 95, 22);
+    border-bottom:2px solid rgb(233, 157, 15);
+    width:max-content;
+    margin-left:32px;
+    font-size: 25px;
+}
+main{
+    margin:20px;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    padding:20px;
+}
+main table{
+    margin-left:250px;
+    font-size:12px;
+}
+#para {
+    margin-left: 30px;
+    margin-right: 49px;
+    font-family: cursive;
+    font-size:13px;
+}
+a{
+    color:brown;
+    text-decoration: none;
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    color:white;
+}
+#color{
+    background-color: rgb(117, 201, 117);
+}
+.fill1{
+    background-color:rgb(202, 192, 192);
+}
+.fill2{
+    background-color:rgb(223, 219, 219);
+}
+main section table a{
+    color:rgb(204, 74, 27);
+    text-decoration: none;
+    
+}
+footer{
+    background-image:url("../img/logo3.jpg");
+    height:400px;
+}
+footer li{
+    display:inline-block;
+    text-indent:40px;
+}
+footer ul li{
+    margin:80px 0px 0px 5px;
+}
+footer ul li a{
+color:red;
+}
+.icons{
+    margin:20px 0px 0px 200px;
+}
+.contacticon{
+    margin-left:200px;
+}
